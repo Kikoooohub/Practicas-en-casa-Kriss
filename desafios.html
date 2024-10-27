@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios</title>
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #afca61;
+
+        }
+
+        .header ul {
+            display: flex;
+            gap: 50px;
+            padding: 10px;
+            align-items: center;
+            list-style: none;
+        }
+
+        .header ul a {
+            text-decoration: none;
+            font-size: 20px;
+            margin: 20px;
+            font-weight: bold;
+            color: rgb(64, 63, 63)
+        }
+
+        /*  Para indicar que estas en esta página */
+        #desafios {
+            color: white;
+        }
+
+
+        .logo {
+            border: 2px solid black;
+            border-radius: 50px 50px 50px 50px;
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+        }
+
+        .logo img {
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .footer {
+            background-color: #afca61;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+
+
+        .footer-nav {
+            list-style: none;
+            padding: 0;
+            margin:  0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-nav li {
+            display: inline;
+        }
+
+        .footer-nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .footer-social,
+        .footer-contact,
+        .footer-legal,
+        .footer-newsletter,
+        .footer-copyright {
+            margin: 1% 0;
+        }
+
+        .footer-social a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .challenges {
+            padding: 20px;
+            text-align: center;
+            gap: 30px;
+
+
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            
+            
+
+        }
+
+        .challenge {
+            background: rgb(242, 239, 239);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            
+        }
+
+        .challenge h3 {
+            color: #afca61;
+
+        }
+
+        .challenge p {
+            margin: 10px 0;
+
+        }
+
+        .grid-container h3 {
+            justify-content: center;
+            display: grid;
+            text-align: center;
+        }
+
+        .grid-container p {
+            display: grid;
+            gap: 30px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/images/logo.png" alt="ChefConnect Logo">
+        </div>
+        <ul>
+            <li><a href="inicio">Inicio</a></li>
+            <li><a href="desafios">Desafíos</a></li>
+            <li><a href="recetas">Recetas</a></li>
+            <li><a href="contacto">Contacto</a></li>
+            <li><a href="Acerca de">Acerca de</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="challenges">
+            <h2>Desafíos del Día</h2>
+            <div class="grid-container">
+                <div class="challenge">
+                    <img src="images/images/paella.jpeg" alt="platoregion">
+                    <h3>Desafío 1: Cocina Regional</h3>
+                    <p><strong>Explicación:</strong> Prepara un plato típico de tu región.</p>
+                    <p><strong>Descripción:</strong> Explora los sabores locales y sorprende a tus amigos con un
+                        auténtico plato regional. Utiliza ingredientes frescos y técnicas tradicionales para resaltar la
+                        esencia de tu cultura culinaria.</p>
+                </div>
+                <div class="challenge">
+                    <img src="images/sushi.jpeg"alt="platopais">
+                    <h3>Desafío 2: Cocina Internacional</h3>
+                    <p><strong>Explicación:</strong> Crea un plato de otro país.</p>
+                    <p><strong>Descripción:</strong> Sumérgete en la cocina del mundo y elige un país que te intrigue.
+                        Investiga sus recetas típicas y experimenta con nuevos ingredientes para llevar a tu mesa un
+                        sabor diferente y emocionante.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav>
+          <ul class="footer-nav">
+            <li><a href="#privacidad">Politica de Privacidad</a></li>
+            <li><a href="#terminos">Terminos y condiciones</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+        <div class="footer-contact">Contacta con nosotros</div>
+        <div class="footer-copyright">© 2024 ChefConnect</div>
+      </footer>
+
+</body>
+
+</html>
