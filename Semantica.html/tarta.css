@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(97, 153, 13);
+    border-top: 2px solid black;
+
+}
+
+.header ul {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    align-items: center;
+    list-style: none;
+}
+
+.header ul a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+/*  Para indicar que estas en esta página */
+#recetas {
+    color: white;
+}
+
+.queso {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.dedos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: goldenrod;
+    border-top: 3px solid black;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.logo {
+    border: 2px solid black;
+    border-radius: 50px 50px 50px 50px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.logo img {
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(97, 153, 13);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    font-size: 30px;
+}
+
+section ul,
+section ol {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: goldenrod;
+    font-size: 16px;
+
+
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: goldenrod;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(97, 153, 13);
+
+}
+
+figure img {
+    display: flex;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 50px 50px 50px 50px;
+    min-width: 400px;
+
+    /*no se aplica border top????*/
+    border-top: 2px solid black;
+
+
+
+
+}
+
+figure figcaption {
+    display: flex;
+    align-items: center;
+
+
+}
+
+aside {
+    display: flex;
+}
+
+aside p {
+    display: flex;
+    align-content: center;
+    padding: 30px;
+    gap: 15px;
+    background-color: goldenrod;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.footer {
+    background-color: rgb(97, 153, 13);
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer-social,
+.footer-contact,
+.footer-legal,
+.footer-newsletter,
+.footer-copyright {
+    margin: 10px 0;
+    color: #000000;
+
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #000000;
+}
